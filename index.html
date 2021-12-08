@@ -1,99 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
+    <!DOCTYPE html> 
+  <html lang="en"> 
+
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SamuraiHuey</title>
-    <link rel="stylesheet" href="./Assets/css/style.css" >
-</head>
-<body>
-    <!--Navigation-->
-    <header>
-        <h1>
-            <a href=""><img src="./Assets/Images/SamuraiLogoTransparent.png" alt="William Brent aka SamuraiHuey" width="50px" height="50px"></a>
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#past">Completed Projects</a>
-                </li>
-                <li>
-                    <a href="#future">Upcoming Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-    <!--Hero-->
-    <section class="hero">
-        <div>
-            <h2>William</h2>
-            <p>
-                A.K.A. SamuraiHuey<br>
-                <br>
-                &nbsp &nbsp &nbsp &nbspMaking products that exude luxury
-            </p>
-        </div>
+  <body>
+  <header>
+    <div class="container flex-row justify-space-between align-center py-3">
+      <h1 class="page-title text-secondary bg-dark py-2 px-3">William Brent</h1>
+      <nav class="flex-row">
+        <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/SamuraiHuey">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container my-5">
+    
+    <section class="my-3" id ="about">
+      <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
+      <p>An up and coming Developer passionate for learning new things and applying them to my work. I have a passion for creating beautiful products for both the end user as well as for my collaborators.</p>
     </section>
+    
+    
+  <section class="my-3" id="portfolio">
+    <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
+    <div class="flex-row justify-space-between">
+    
+        <div class="col-12 mb-2 bg-dark text-light p-3">
+          <h3 class="portfolio-item-title text-light">Lorem Sipsum</h3>
+          <h5 class="portfolio-languages">
+            Built With:
+            Javascript, HTML, CSS
+          </h5>
+          <p>Lorem Sipsum provides one place to find an event in your area as well as nearby Restaraunts and Breweries to give you options to set up the perfect night out.</p>
+          <a href="https://cshepscorp.github.io/lorem-sipsum/" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+        </div>
+      
+        <div class="col-12 mb-2 bg-dark text-light p-3">
+          <h3 class="portfolio-item-title text-light">jest-another-RPG</h3>
+          <h5 class="portfolio-languages">
+            Built With:
+            Javascript, Node
+          </h5>
+          <p>An RPG game played entirely in through the command prompt. Developed using Jest testing practices.</p>
+          <a href="https://github.com/SamuraiHuey/jest-another-RPG.git" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+        </div>
+      
+        <div class="col-12 mb-2 bg-dark text-light p-3">
+          <h3 class="portfolio-item-title text-light">u-develop-it</h3>
+          <h5 class="portfolio-languages">
+            Built With:
+            Javascript, Node
+          </h5>
+          <p>A SQL server created to practice the creation and maintenance of a voting server.</p>
+          <a href="https://github.com/SamuraiHuey/u-develop-it.git" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+        </div>
+      
 
-    <!--About Me-->
-    <section id="about-me">
-        <img src="./Assets/Images/Profile Pic.PNG" alt="smiling wide, excited for the future.">
-        <div class="About">
-            <h3>Alittle about me</h3>
-            <p>I like keybjort</p>
+    
+        <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+          <h3 class="portfolio-item-title text-light">passwordGenerator</h3>
+          <h5 class="portfolio-languages">
+            Built With:
+            Javascript, HTML, CSS
+          </h5>
+          <p>A simple way to generate a strong password using window alerts to input parameters for output.</p>
+          <a href="https://samuraihuey.github.io/passwordGenerator/" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
         </div>
-    </section>
+      
+        <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+          <h3 class="portfolio-item-title text-light">Taskinator</h3>
+          <h5 class="portfolio-languages">
+            Built With:
+            Javascript, HTML, CSS
+          </h5>
+          <p>A Kanban board designed and created for my personal uses.</p>
+          <a href="https://samuraihuey.github.io/taskinator/" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+        </div>
+      
+    </div>
+  </section>
 
-    <section id="past">
-        <div class="projects">
-            <h3>Run Buddy</h3>
-            <p>A website to help everyone<br> pursue their fitness goals.</p>
-            <a href="https://samuraihuey.github.io/run-buddy/"><img src="./Assets/Images/RunBuddyHero.PNG" alt="the opening page of my Run Buddy project"></a>
-        </div>
-        <div class="projects">
-            <h3>Lorem Sipsum</h3>
-            <p>The perfect way to plan a night on the town</p>
-            <a href="https://cshepscorp.github.io/lorem-sipsum/"><img src="./Assets/Images/LoremSipsum.PNG" alt="the opening page of my Run Buddy project"></a>
-        </div>
-    </section>
-<!--No other deployed websites, links reroute to this website for now-->
-    <section id="future">
-        <div class="projects-text">
-            <h3>Sine</h3>
-            <p>An Audiophiles Keyboard.</p>
-            <a href=""><img src="./Assets/Images/Sine.png"></a>
-        </div>
-
-        <div class="projects-text">
-            <h3>SamuraiHueyKeyboards.com</h3>
-            <p>Showcase of my Custom Keyboard builds.</p>
-            <a href=""><img src="./Assets/Images/SamuraiKeyboardsImg.jpg" width="300px" height="200px"></a>
-        </div>
-    </section>
-<!--Contact Me!-->
-    <section id="contact">
-        <div>
-            <h4>Contact Me</h4>
-            <p>If you would like me to work on  <br> 
-                a project with me shoot me an email!</p>
-            <address>
-                <a href="mailto:will@samuraihuey.com">Will@SamuraiHuey.com</a>
-            </address>
-            <p>Or if you would like to see what I am <br> currently working on, head on over to Twitch! <br><br> <a href="https://www.twitch.tv/samurai_huey">Twitch.tv/samurai_huey</a> </p>
-        </div>
-        <a href="https://www.twitch.tv/samurai_huey"><img src="./Assets/Images/SamuraiLogoThicc.png"></a>
-    </section>
-
-    <footer>
-        ❤️ Made with care by Samurai_Huey on a Geonworks F1-8X.
-    </footer>
+  </main>
+  <footer class="container text-center py-3">
+    <h3 class="text-dark">&copy; 2021 by William Brent</h3>
+  </footer>
 </body>
-</html>
+  </html>
+    
